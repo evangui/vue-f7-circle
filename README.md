@@ -2,7 +2,7 @@
 
 > vue-f7-circle是一套基于framework7（http://framework7.io/） + Vue全家桶（Vue2.x + Vue-router2.x + Vuex）的用于实际项目的圈子社交系统。
 
-本项目最初是用framework7自整理的Framework7 Vue项目框架http://framework7.io/vue/ 开发，后来发现返回页面时，容易出现页面被挡住的现象，对照官方文档研究两天无法解决。后转为基于vue，将framework7的核心方法与对象作为vue的全局方法与对象，界面交互api与界面样式，还是用的framework7的，体验效果还不错。
+> 本项目最初是用framework7自整理的Framework7 Vue项目框架http://framework7.io/vue/ 开发，后来发现返回页面时，容易出现页面被挡住的现象，对照官方文档研究两天无法解决。后转为基于vue，将framework7的核心方法与对象作为vue的全局方法与对象，界面交互api与界面样式，还是用的framework7的，体验效果还不错。
 
 [项目演示地址 http://m.cattlepie.com/v2/](http://m.cattlepie.com/v2/)
 
@@ -15,7 +15,7 @@
 本项目依赖服务端接口，服务端接口项目后续将整理上传
 
 ## main.js
-```
+```js
     //vue-lazyload
     import VueLazyload from 'vue-lazyload';
     Vue.use(VueLazyload, {
@@ -63,7 +63,7 @@
     })
 ```
 ## f7全局对象与方法注册
-```
+```js
 /**
  * 注册vue的framework7基础全局变量与全局方法
  * 
