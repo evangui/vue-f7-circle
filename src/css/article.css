@@ -1,0 +1,145 @@
+	article	p {
+		word-wrap: break-word;
+		text-align: justify;
+		margin: 0 0 20px;
+		color: #505050;
+		line-height: 1.7;
+		padding: 0
+	}
+	
+	article table {
+		margin: 0 auto;
+		font-size: 14px;
+		text-align: center;
+		border-spacing: 0;
+		border-collapse: collapse;
+		color: #303030
+	}
+	
+	article table td {
+		border: 1px solid #dadada;
+		padding: 2px
+	}
+	
+	article img {
+		display: block;
+		max-width: 100%;
+		background: #efefef;
+		border-radius: 0;
+		margin: 8px auto
+	}
+	
+	article h1,
+	article h2,
+	article h3,
+	article h4 {
+		position: relative;
+		display: block;
+		font-weight: 700;
+		word-wrap: break-word;
+		margin: 20px 0;
+		padding-left: 9px;
+		color: #333333;
+		line-height: normal
+	}
+	
+	article h1 {
+		font-size: 1.1em;
+	}
+	
+	article h2 {
+		font-size: 1em;
+	}
+	article h3 {
+		font-size: 1em;
+		padding-left: 0;
+		text-align: left;
+	}
+	article h4 {
+		font-size: 1em;
+		padding-left: 0;
+		text-align: center;
+	}
+	article h5 {
+		font-size: 0.9em;
+		text-align: center;
+	}
+	
+	article h1:before,
+	article h2:before{
+		content: '';
+		position: absolute;
+		width: 4px;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background: #ff9500;
+		border-radius: 20%;
+	}
+	
+	article blockquote p {
+		line-height: 1.6;
+		margin: 0 0 20px;
+		color: #999
+	}
+	
+	article blockquote p:last-child {
+		margin: 0
+	}
+	
+	article blockquote p br:only-child {
+		display: none
+	}
+	
+	article pre,
+	article code {
+		font-size: 12px;
+		line-height: 1.5em;
+		background: #eee;
+		padding: 10px
+	}
+	
+	article blockquote {
+		position: relative;
+		font-size: .8823em;
+		margin: 20px 0;
+		padding: 12px 10px;
+		line-height: 1.4;
+		color: #999;
+		background: #fff;
+		border: 1px solid #ddd
+	}
+	
+	article table {
+		margin: 15px auto;
+		color: #464646
+	}
+	
+	article table td,
+	article table th {
+		text-align: center;
+		font-size: 14px;
+		line-height: 1.5em
+	}
+	
+	article table.border th,
+	article table.border tr:nth-child(2n) {
+		background: rgba(100, 100, 100, .1)
+	}
+	
+	article table.border td,
+	article table.border th {
+		padding: 5px;
+		font-size: 12px;
+		border: 1px solid #d4d4d4
+	}
+	
+	@media only screen and (min-width:375px) {
+		article {
+			font-size: 18px;
+			line-height: 1.7
+		}
+		article p {
+			line-height: 1.7
+		}
+	}
